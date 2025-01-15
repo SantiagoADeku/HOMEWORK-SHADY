@@ -1,0 +1,151 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #e4e1f3b3;
+  font-family: sans-serif;
+
+}
+.flex-container {
+  display: flex;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  border-radius: 10px;
+  width: 30%;
+  flex-direction: column;
+  align-items: center;
+  flex-flow: column;
+}
+.spaces {
+  display: flex;
+  flex-direction: column;
+  column-gap: 10px;
+}
+h2 {
+  margin-bottom: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+.subtitle {
+  font-size: 15px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+}
+.sub-t {
+  color: #4b35dd;
+  font-weight: bold;
+  text-decoration: none;
+}
+.login {
+  display: flex;
+  cursor: pointer;
+  gap: 10px;
+  flex-grow: 100%;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+.c1 {
+  display: flex;
+  background-color: white;
+  border: 2px solid #adadad;
+  border-radius: 10px;
+  align-items: center;
+  cursor: pointer;
+  padding: 10px 20px;
+}
+.c2 {
+  display: flex;
+  background-color: white;
+  border: 2px solid #4b35dd;
+  border-radius: 10px;
+  align-items: center;
+  cursor: pointer;
+  padding: 5px 10px;
+}
+.c1:hover, .c2:hover {
+  opacity: 0.8;
+}
+.img-google {
+  width: 40px;
+  height: 40px;
+}
+.img-fb {
+  width: 40px;
+  height: 40px;
+}
+.google-text {
+  display: flex;
+  font-weight: bold;
+}
+.medio {
+  display: flex;
+    align-items: center; 
+    text-align: center;
+}
+.medio hr {
+  flex-grow: 1; 
+  border: none; 
+  border-top: 1px solid #adadad; 
+  margin: 0 10px; 
+}
+.medio span {
+  padding: 0 10px; 
+  font-weight: bold; 
+  color: black; 
+}
+.email-login {
+  justify-items: start;
+  gap: 10px;
+  margin: 20px 20px;
+}
+label {
+    display: flex;
+    font-weight: bold;
+    color: #adadad;
+}
+input {
+    display: flex;
+    gap: 10px;
+    text-align: start;
+    font-size: 18px;
+    height: 50px;
+    width: 90%;
+    padding: 10px;
+    color: #adadad;
+    border: 2px solid #adadad;
+    border-radius: 10px;
+    
+}
+.button {
+    padding: 10px 15px;
+    background-color: #adadad;
+    border: none;
+    cursor: pointer;
+}
+.log-in {
+  width: 80%;
+  height: 70px;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+  color: white;
+  cursor: pointer;
+  background-color: #4b35dd;
+  outline: none;
+  text-transform: uppercase;
+  margin: auto;
+
+}
+.log-in:hover{
+  background-size: 300%;
+  background-image: linear-gradient(to right, #e63718, #bd7a0d, #14bf3c, #279eff);
+  transition: all .5s;
+}
+.forget-pass {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  text-decoration: none;
+}
